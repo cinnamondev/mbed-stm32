@@ -1,7 +1,5 @@
 #include "mbed.h"
 
-// Blinking rate in milliseconds
-#define BLINKING_RATE 600ms
 
 int main() {
   // Initialise the digital pin LED1 as an output
@@ -9,6 +7,6 @@ int main() {
 
   while (true) {
     led = !led;
-    ThisThread::sleep_for(BLINKING_RATE);
+    ThisThread::sleep_for(1s);
   }
 }

@@ -12,7 +12,7 @@
 *.pch
 
 # Compiled Dynamic libraries
-*.so
+*.so            
 *.dylib
 *.dll
 
@@ -37,5 +37,5 @@
 
 BUILD/*
 BUILD
-.mbed
-mbed-os
+.mbed/
+mbed-os/
